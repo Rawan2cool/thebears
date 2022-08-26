@@ -1,0 +1,167 @@
+body
+{
+    /* background-color: rgb(238, 238, 238) !important; */
+    background-image: url("assets/img/galaxy.gif");
+}
+.title
+{
+    margin-top: 25px;
+    color:  rgb(192, 31, 255);
+}
+.title p
+{
+    color: rgb(30, 255, 255);
+}
+
+.title span
+{
+    background-color: black;
+    color: rgb(30, 255, 255);
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.blog
+{
+    /* position: relative;
+    left: 20%; */
+    background-color: rgba(93, 255, 242, 0.692);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* width: 65%; */
+    color: rgb(0, 0, 0);
+}
+
+.blog h2
+{
+    color:  rgb(138, 0, 143);  
+}
+
+.blog img
+{
+    width: 50%;
+    height: 30vh;
+}
+
+.blog #img2
+{
+    width: 50%;
+    height: 30vh;
+    margin-top: -319px;
+    margin-left: 428px;
+}
+
+.blog span
+{
+    color:  rgb(192, 31, 255);
+
+}
+
+.blog a
+{
+  text-decoration: none;
+  color: rgb(192, 31, 255);
+}
+.blog a span
+{
+    background-color: black;
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.profile
+{
+    /* background-color: white; */
+    background-color: rgba(93, 255, 242, 0.692);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 46.5%;
+}
+
+.profile h3
+{
+    color:  rgb(138, 0, 143); 
+}
+.profile img
+{
+    width:100%;
+}
+#panda
+{
+    margin-bottom: 67px;
+}
+.btn
+{
+    border-radius: 0px !important;
+    background-color:  rgb(138, 0, 143) !important;
+    color:aliceblue  !important;
+}
+.popular-posts
+{
+    /* background-color: white; */
+    margin-top: -14px;
+    background-color: rgba(93, 255, 242, 0.692);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.popular-posts h5
+{
+    background-color: rgb(128, 16, 172);
+    padding: 15px;
+    color: rgb(31, 252, 233);
+}
+.border-radius
+{
+    /* margin-top: 0px; */
+    border-bottom: 1px solid lightgray;
+}
+.popular-posts img
+{
+    margin-top: -8px;
+    width: 20%;
+    padding: 15px;
+}
+.popular-posts h6{
+    /* margin-bottom: 15px; */
+    position: relative;
+    top: 8px;
+}
+.tags
+{
+    /* background-color: white; */
+    background-color: rgba(93, 255, 242, 0.692);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tags h5
+{
+    background-color: rgb(128, 16, 172);
+    padding: 15px;
+    color: rgb(31, 252, 233);
+}
+.tags a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(64, 233, 255);
+    padding-left:7px;
+    padding-right:7px;
+}
+#span
+{
+    background-color: rgb(138, 0, 143); 
+    color: white;
+    font-size: 20px;
+}
+@media (max-width:991px) 
+{
+    .blog a
+    {
+        position: relative;
+        left: -25px;
+        font-size: 13px;
+    }
+}
+@media (max-width:768px) 
+{
+    .blog a
+    {
+        position: relative;
+        left: -25px;
+        font-size: 13px;
+    }
+}
